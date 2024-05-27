@@ -350,3 +350,10 @@ h2 {
 .sec5 .me{
  color: var(--color-secondary);
 }
+.contact-content-cont {
+  display: flex;
+  padding: 3.5rem;  
+}
+.left-contact {
+  
+}
