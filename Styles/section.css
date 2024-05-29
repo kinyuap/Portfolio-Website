@@ -354,6 +354,62 @@ h2 {
   display: flex;
   padding: 3.5rem;  
 }
-.left-contact {
-  
+.contact-content-cont .left-contact {
+  flex: 2;
+}
+.left-contact h4{
+  margin-top: 1rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+.left-contact p{
+  margin: 1rem 0;
+  line-height: 2rem;
+}
+
+.contact-info .contact-item {
+display: flex;
+align-items: center;
+justify-content: space-between ;
+}
+
+.contact-info .contact-item p {
+  margin: .3rem 0 !important;
+  padding: 0 !important;
+}
+.cont-icon {
+  display: grid;
+  grid-template-columns: 40px 1fr;
+}
+
+.right-contact {
+  flex: 3;
+  margin-right: 3rem 0;
+}
+
+.input-control {
+  margin: 1.5rem 0;
+}
+input, textarea {
+  border-radius: 20px;
+  font-weight: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  padding: .8rem 1.1rem;
+  outline: none;
+  width: 100%;
+  border: none;
+  background-color: var(--color-grey-5);
+  /* color: var(--color-white); */
+  resize: none
+}
+.i-c-2 {
+  display: flex;
+}
+.i-c-2:last-child {
+  margin-left: 1.5rem;
+}
+.submit-btn {
+  display: flex;
+  justify-content: flex-start;
 }
