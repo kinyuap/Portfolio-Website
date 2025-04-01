@@ -11,7 +11,7 @@ function pageTransitions() {
       let currentBtn = document.querySelector('.active-btn');
       currentBtn.classList.remove('active-btn');
       this.classList.add('active-btn');
-    });
+    }); 
   }
 
   //section active class
@@ -33,4 +33,11 @@ function pageTransitions() {
     }
   })
 }
+
+const themeBtn = document.querySelector('.theme-btn')
+themeBtn.addEventListener('click', () => {
+  let element = document.body;
+  element.classList.toggle('light-mode')
+})
+
 pageTransitions();
